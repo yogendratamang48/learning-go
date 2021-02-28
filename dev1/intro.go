@@ -1,6 +1,8 @@
 package main
 
 import "fmt"
+import "rsc.io/quote"
+
 
 // Structs - composite
 type info struct {
@@ -40,6 +42,7 @@ func main() {
 	sp := &s
 	sp.result = "Set a struct pointer value"
 	fmt.Println("Go Reports: %+v\n", sp.result )
-
+	// Using package
+	fmt.Println(quote.Go())
 
 }

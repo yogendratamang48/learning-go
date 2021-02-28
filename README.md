@@ -11,3 +11,6 @@
 - download packages: `go get <package_name>`
 - Remove objects: `go clean`
 - Test packages: `go test`
+
+### Why Go ?
+- Very good at #WebServices and #WebApps
